@@ -1,0 +1,17 @@
+-- command to run the java app :
+
+1- with jar and all dependencies : 
+    java -cp /usr/share/java/mysql-connector-j-8.4.0.jar:target/db-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+
+2- using maven :
+    mvn exec:java -Dexec.mainClass="com.mycompany.app.App"
+
+-- Useful maven commands :
+
+1- mvn package
+
+2- mvn clean install
+
+3- mvn install
+
+4- mvn compile
